@@ -1,0 +1,39 @@
+Day-16 Notes
+2. Global Variable -
+ - The variable which decleared outside any method, block or constructor is called global variable.
+ Example -
+ class Sample{
+ int num; // Global Variable
+ public static void display(){}
+ public static void main(String [] args){}
+ }
+ - The global variable is of two types(based on data for object):
+   i. Static Variable:
+    - variable created using 'static' keyword
+	- when data is same for all object then we must use static variable.
+	- static variables have single copy of memory
+	
+	ii. Instance variable:
+	- variable created without using the keyword 'static'.
+	- when data is different for object then we must use 
+	  instance variable.
+	- instance variables have multiple copies of memory, because
+	  it is always loaded into an object is created.
+	  
+  Notes - Static variable are accessed using class name or directly or using object reference. 
+        - Non Static variable are accessed using object or object reference.
+	  Example
+	  class Employee{
+		String name;
+		int age; // instance variable
+		String dept; // instance variable
+		String empId; // instance variable
+		static String company name = "MazeQube"; // Its a single copy of memory
+		
+		public static void main(String [] args){
+		 Employee e1 = new Employee() // Here name, age, dept, empId loaded for e1
+		 Employee e2 = new Employee() // Here name, age, dept, empId loaded for e2
+		 Employee e3 = new Employee() // Here name, age, dept, empId loaded for e3
+		}
+	  }
+	  
