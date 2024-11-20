@@ -34,7 +34,10 @@ class ConversionType {
 	}
 	//Byte to long Start
 	
-	
+	//Byte to float Start
+	public static void main(String [] args){
+		byte d = 
+	}
 	public static void main(String [] args){
 		ByToShort();
 		BytoInt();
