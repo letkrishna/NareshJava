@@ -1,0 +1,28 @@
+ Q1. What is keyword ?
+ Ans - A special predefined word avaialble in java which has
+       special meaing for the system is called as kedword.
+    In java we have two types of kedword:
+      - Reserved Keyword (51)
+      - Contextual Keyword(17)
+
+ Note :
+ - Since Java 9, the underscore character is a reserved keyword
+   underscore(_) can't be use as identifier or variable name.
+
+ * goto is not in use
+ * const is not in use
+
+ Upto JDK 8, there were 50 keywords but from JDK 9 its 51 just because of underscore added into the list of keywords.
+
+As per the recent version of java 21, there are 51 reserved keyword
+where as 17 contextual keywords.
+
+-class is a keyword
+-class is a blueprint of objects. It means one can have an idea about the type of objects to deal with.
+class Student{} => Here we will deal with Students
+class Remote{} => Here we will deal with remotes
+class Laptop{} => Here we will deal with laptops
+
+- object is a real world entity(things). which has certain         charactersitics and behaviours
+
+   

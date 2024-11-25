@@ -1,0 +1,35 @@
+/* 
+  Output Statement in Java :
+   1. System.out.println();
+   2. System.out.print();
+   3. System.err.println();
+   4. System.err.print();
+   5. System.out.printf();
+
+1.System.out.println():
+- It is an output statement.
+- It is used by java developers to print message / output in the console.
+- It prints a message and then moves the control in output console
+  to another line so that any other new message has to be printed, gets
+  printed from a next/new line.
+- 'System' is one of a predefined class available in 'java.lang'.
+- 'out' is a reference vairable of type PrintStream.
+- println() is a predefined method and it is overloaded.
+- println() is available in PrintStream.
+- 'PrintStream' is one of a predefined class available in 'java.io'.
+
+2. System.out.print():
+-It is an output statement
+-It is used by java developers to print message/ output in the console.
+-It prints a message and keeps the control in output console
+ in the same line, so that any other new message has to be printed, gets
+ printed from the same line.
+ 
+Note :
+ Whatever has to be printed as message throught the output statement, it
+ must be kept within double quates.
+ 
+ Anything within double will be considered as String literal.
+ 
+ 
+*/
